@@ -18,7 +18,7 @@ body {
 }
 
 .slides {
-    width: 300px;
+    width: 300%;
     height: 300px;
     display: flex;
 }
@@ -30,4 +30,8 @@ body {
 .slide {
     width: 25%;
     position: relative;
+}
+
+.slide img {
+    width: 300px;
 }
